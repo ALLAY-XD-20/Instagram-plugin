@@ -1,0 +1,13 @@
+{
+  "name": "nodelink-instagram-plugin",
+  "version": "1.1.0",
+  "description": "Instagram posts, reels, carousels, stories, highlights and profiles source for NodeLink using instagram-private-api",
+  "type": "module",
+  "main": "index.ts",
+  "author": "ALLAY-XD-20",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "instagram-private-api": "^1.46.1"
+  }
+}
