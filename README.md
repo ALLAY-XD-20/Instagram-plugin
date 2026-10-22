@@ -59,17 +59,21 @@ Instagram source registered (worker).
 
 ```js
 // 1. Register the plugin
-plugins: [
-  { name: 'nodelink-instagram-plugin', source: 'local' }
-],
-
-// 2. Add your account
-pluginConfig: {
-  'nodelink-instagram-plugin': {
-    username: 'YOUR_SPARE_ACCOUNT',
-    password: 'YOUR_PASSWORD'
+  plugins: [
+    {
+      name: 'Instagram-plugin',
+      source: 'local'
+    }
+  ],
+  pluginConfig: {
+    'Instagram-plugin': {
+      username: 'cheetah.513923',
+      password: 'ALLA0'
+    }
   }
-},
+};
+
+export default config;
 ```
 
 If NodeLink has its own Instagram source, disable it so the two don't clash:
